@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/ic_wallet_black_24dp"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/work"
+                android:icon="@drawable/ic_work_black_24dp"
+                android:title="Work?" />
+            <item
+                android:id="@+id/history"
+                android:icon="@drawable/ic_history_black_24dp"
+                android:title="History" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

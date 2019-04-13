@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">instawash</string>
+    <string name="exterior">Exterior</string>
+    <string name="interior">Interior</string>
+</resources>
